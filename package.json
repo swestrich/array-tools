@@ -3,7 +3,7 @@
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "2.0.2",
   "description": "Lightweight, use-anywhere toolkit for working with array data.",
-  "repository": "https://github.com/75lb/array-tools.git",
+  "repository": "https://github.com/swestrich/array-tools.git",
   "main": "./lib/array-tools.js",
   "bin": "bin/cli.js",
   "license": "MIT",

@@ -2,7 +2,7 @@ var test = require('tape')
 var fs = require('fs')
 var spawn = require('child_process').spawn
 
-var inputPath = 'test/fixture/array.json'
+var inputPath = 'fixture/array.json'
 var outputPath = 'tmp/test.json'
 
 try {

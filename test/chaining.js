@@ -104,7 +104,7 @@ test('chaining: .pluck then a.exists', function (t) {
   t.end()
 })
 
-test('chaining: .map then .unique', function (t) {
+test('chaining: .map then .uniqueValues', function (t) {
   var data = [
     {one: 1, two: 2},
     {one: 1, two: 3},
@@ -115,7 +115,7 @@ test('chaining: .map then .unique', function (t) {
   ]
   var result = a(data)
     .map(function (item) { return item.one; })
-    .unique()
+    .uniqueValues()
     .val()
   t.deepEqual(result, [ 1, 2, undefined, 'one' ])
   t.end()
